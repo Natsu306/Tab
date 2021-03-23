@@ -1,0 +1,41 @@
+<<<<<<< HEAD
+.fondo{
+     -fx-background-image: url("./img/Fondo1.jpg");
+     -fx-background-size: cover;
+}
+.hBox{
+          -fx-background-color: #394DFA;
+}
+.Button{
+-fx-background-color: #F1F6F2;
+-fx-background-image: url("./img/cubo.png");
+          -fx-background-radius: 100px;
+}
+.Button1{
+-fx-background-color: #F1F6F2;
+-fx-background-image: url("./img/Linia.png");
+          -fx-background-radius: 100px;
+}
+.Button2{
+-fx-background-color: #F1F6F2;
+-fx-background-image: url("./img/Circulo.png");
+          -fx-background-radius: 100px;
+}
+.Button3{
+-fx-background-color: #F1F6F2;
+-fx-background-image: url("./img/Borrador.png");
+          -fx-background-radius: 100px;
+}
+.Button4{
+-fx-background-color: #F1F6F2;
+-fx-background-image: url("./img/pincel.png");
+          -fx-background-radius: 100px;
+}
+.Button5{
+-fx-background-color: #F1F6F2;
+-fx-background-image: url("./img/salvar(1).png");
+          -fx-background-radius: 100px;
+}
+
+
+
