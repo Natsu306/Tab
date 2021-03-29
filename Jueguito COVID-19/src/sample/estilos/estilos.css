@@ -1,0 +1,77 @@
+.grado{
+   -fx-background-color: linear-gradient(from 25% 25% to 100% 100%, #44DA61, #3EF094);
+}
+.fondo{
+-fx-background-color: #7cc4a4;
+}
+.jfx-button {
+-fx-font-size: 14px;
+    -fx-background-color: #3CE6BE;
+              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+}
+.jfx-button1 {
+-fx-font-size: 14px;
+-fx-background-color: #7cc4a4;
+              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/11.png")
+}
+.jfx-button2 {
+-fx-font-size: 14px;
+-fx-background-color: #7cc4a4;
+              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/Manos.png")
+}
+.jfx-button3 {
+-fx-font-size: 14px;
+    -fx-background-color: #7cc4a4;
+
+              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/gloves.png")
+}
+.jfx-button4 {
+-fx-font-size: 14px;
+              -fx-background-radius: 30px;
+              -fx-background-color: #7cc4a4;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/videocall.png")
+}
+.jfx-button5 {
+-fx-font-size: 14px;
+   -fx-background-color: #7cc4a4;              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/Salida.png")
+}
+.jfx-buttonregreso {
+-fx-font-size: 14px;
+    -fx-background-color: #3CE6BE;
+
+              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/flecha-izquierda.png")
+}
+.Usuario {
+-fx-font-size: 14px;
+              -fx-background-radius: 30px;
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/usuario.png")
+}
+.More {
+-fx-font-size: 14px;
+              -fx-background-radius: 30px;
+              -fx-background-color:#58bd89
+              -fx-text-fill: black;
+              -fx-background-image: url("../img/flecha-correcta.png")
+}
+.fondo1{
+-fx-background-color:#178ba5
+}
+.fondo2{
+-fx-background-color:#58bd89
+
+}
+
+

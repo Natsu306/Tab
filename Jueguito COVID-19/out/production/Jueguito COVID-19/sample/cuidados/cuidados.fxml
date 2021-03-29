@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.cuidados.Cuidados">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="500.0">
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="100.0" prefWidth="250.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#boton6" prefHeight="64.0" prefWidth="64.0" styleClass="jfx-buttonregreso" stylesheets="@../estilos/estilos.css">
+                           <HBox.margin>
+                              <Insets left="10.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                        <Label prefHeight="64.0" prefWidth="108.0" text="Regresar">
+                           <HBox.margin>
+                              <Insets left="20.0" top="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="Verdana" size="23.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="100.0" prefWidth="250.0">
+                     <children>
+                        <Label ellipsisString="" prefHeight="64.0" prefWidth="201.0" text="Mostrar mas" textAlignment="RIGHT">
+                           <padding>
+                              <Insets right="50.0" />
+                           </padding>
+                           <font>
+                              <Font name="Verdana" size="23.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Button mnemonicParsing="false" onAction="#boton8" prefHeight="64.0" prefWidth="64.0" styleClass="More" stylesheets="@../estilos/estilos.css">
+                           <HBox.margin>
+                              <Insets left="-50.0" top="20.0" />
+                           </HBox.margin>
+                        </Button>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </bottom>
+         <left>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fx:id="img1" fitHeight="150.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/informatica.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img2" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/lavarse-las-manos.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fx:id="img3" fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/limpieza.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </VBox>
+         </left>
+         <center>
+            <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label fx:id="lb1" prefHeight="150.0" prefWidth="350.0" text="Lávese las manos regularmente con un desinfectante a base de alcohol o con agua y jabón. Tocarse la cara después de tocar superficies contaminadas o a personas enfermas es una de las formas en que se puede transmitir el virus. Al limpiar las manos se puede reducir el riesgo." textAlignment="CENTER" textOverrun="CLIP" wrapText="true">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+                  <Label fx:id="lb2" prefHeight="150.0" prefWidth="337.0" text="Las prácticas de desinfección son importantes para reducir el potencial de contaminación por el virus COVID-19 en entornos no sanitarios, como en el hogar, la oficina, las escuelas, los gimnasios, los edificios de acceso público, los centros comunitarios basados en la fe, los mercados, el transporte y los entornos comerciales o restaurantes." textAlignment="JUSTIFY" textOverrun="CLIP" wrapText="true" />
+                  <Label fx:id="lb3" prefHeight="150.0" prefWidth="337.0" text="Infórmese sobre el COVID-19 a través de fuentes confiables: su agencia de salud pública local o nacional, el sitio web de la OMS o su profesional sanitario local. Todos deben conocer los síntomas: para la mayoría de las personas, comienza con fiebre y tos seca, no con secreción nasal. La mayoría de las personas tendrá una enfermedad leve y mejorará sin necesidad de ningún cuidado especial." textAlignment="JUSTIFY" textOverrun="CLIP" wrapText="true" />
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</StackPane>

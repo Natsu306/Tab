@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<StackPane prefHeight="500.0" prefWidth="500.0" styleClass="fondo" stylesheets="@../estilos/estilos.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.principal.Principal">
+   <children>
+      <BorderPane prefHeight="500.0" prefWidth="500.0">
+         <left>
+            <VBox prefHeight="358.0" prefWidth="91.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="botiquin" mnemonicParsing="false" onAction="#boton1" prefHeight="64.0" prefWidth="64.0" styleClass="jfx-button1" stylesheets="@../estilos/estilos.css">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="botiquin2" mnemonicParsing="false" onAction="#boton2" prefHeight="64.0" prefWidth="64.0" styleClass="jfx-button2" stylesheets="@../estilos/estilos.css">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="botiquin3" mnemonicParsing="false" onAction="#boton3" prefHeight="64.0" prefWidth="64.0" styleClass="jfx-button3" stylesheets="@../estilos/estilos.css">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+                  <Button fx:id="botiquin4" mnemonicParsing="false" onAction="#boton4" prefHeight="64.0" prefWidth="64.0" styleClass="jfx-button4" stylesheets="@../estilos/estilos.css">
+                     <VBox.margin>
+                        <Insets left="15.0" top="15.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </left>
+         <top>
+            <HBox prefHeight="78.0" prefWidth="500.0" BorderPane.alignment="CENTER">
+               <children>
+                  <HBox prefHeight="57.0" prefWidth="501.0">
+                     <children>
+                        <Label prefHeight="23.0" prefWidth="73.0" text="Usuario:">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets left="165.0" top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                        <Label prefHeight="23.0" prefWidth="211.0" text="Jorge Luis Estrada Ramirez">
+                           <font>
+                              <Font name="Verdana" size="14.0" />
+                           </font>
+                           <HBox.margin>
+                              <Insets top="20.0" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="64.0" prefWidth="145.0">
+                     <children>
+                        <Label prefHeight="64.0" prefWidth="64.0" styleClass="Usuario" stylesheets="@../estilos/estilos.css">
+                           <HBox.margin>
+                              <Insets top="7.125" />
+                           </HBox.margin>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </top>
+         <center>
+            <VBox prefHeight="295.0" prefWidth="345.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="58.0" prefWidth="313.0" text="Informacion que cura">
+                     <VBox.margin>
+                        <Insets top="17.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Verdana" size="24.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="58.0" prefWidth="160.0" text="Cuidados">
+                     <font>
+                        <Font name="Verdana" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="58.0" prefWidth="160.0" text="Preguntas">
+                     <font>
+                        <Font name="Verdana" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label prefHeight="58.0" prefWidth="160.0" text="Info">
+                     <font>
+                        <Font name="Verdana" size="24.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+         <bottom>
+            <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label prefHeight="58.0" prefWidth="62.0" text="Salir">
+                     <font>
+                        <Font name="Verdana" size="24.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="370.0" top="20.0" />
+                     </HBox.margin>
+                  </Label>
+                  <Button fx:id="botiquin5" mnemonicParsing="false" onAction="#boton5" prefHeight="64.0" prefWidth="64.0" styleClass="jfx-button5" stylesheets="@../estilos/estilos.css">
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets top="20.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+         </bottom>
+      </BorderPane>
+   </children>
+</StackPane>
